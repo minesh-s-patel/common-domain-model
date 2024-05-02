@@ -1,7 +1,7 @@
 name: Java CI with Maven
 
 on:
-  push: #triggers on tag push event .xxxx test
+  push: #triggers on tag push event --- syntax error test
     tags:
       - '**'
   pull_request: #triggers on PR merge event into develop branch
@@ -103,6 +103,10 @@ jobs:
       - name: Distribute CI
         run:
           echo "Distribute ci"
+      - name: Distribute Excel
+        run:
+          echo "Distribute Excel"
+          
   
   finalise:
     needs: distribute
