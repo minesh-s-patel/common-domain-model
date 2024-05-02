@@ -1,7 +1,7 @@
 name: Java CI with Maven
 
 on:
-  push: #triggers on tag push event
+  push: #triggers on tag push event .xxxx test
     tags:
       - '**'
   pull_request: #triggers on PR merge event into develop branch
