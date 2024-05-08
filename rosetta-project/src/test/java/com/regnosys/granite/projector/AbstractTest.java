@@ -28,3 +28,4 @@ public class AbstractTest {
 	protected void bindTestingMocks(Binder binder) {
 	}
 }
+
