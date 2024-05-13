@@ -103,7 +103,10 @@ jobs:
       - name: Distribute CI
         run:
           echo "Distribute ci"
-
+      - name: Distribute Excel
+        run:
+          echo "Distribute Excel"
+          
 # Excel distribution
 #  DeployExcel:
 #    stage: 'build'
