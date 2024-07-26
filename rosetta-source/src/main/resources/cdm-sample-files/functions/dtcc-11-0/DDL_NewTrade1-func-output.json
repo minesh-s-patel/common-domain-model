@@ -281,19 +281,14 @@
                             },
                             "referenceObligation" : [ {
                               "security" : {
-                                "productIdentifier" : [ {
-                                  "value" : {
-                                    "identifier" : {
-                                      "value" : "US635405AQ55",
-                                      "meta" : {
-                                        "scheme" : "http://www.fpml.org/spec/2002/instrument-id-ISIN"
-                                      }
-                                    },
-                                    "source" : "ISIN",
+                                "identifier" : [ {
+                                  "identifier" : {
+                                    "value" : "US635405AQ55",
                                     "meta" : {
-                                      "globalKey" : "d8591920"
+                                      "scheme" : "http://www.fpml.org/spec/2002/instrument-id-ISIN"
                                     }
-                                  }
+                                  },
+                                  "identifierType" : "ISIN"
                                 } ],
                                 "securityType" : "Debt"
                               }
@@ -301,11 +296,11 @@
                           }
                         },
                         "meta" : {
-                          "globalKey" : "1c3ccc30"
+                          "globalKey" : "e7dc2716"
                         }
                       },
                       "meta" : {
-                        "globalKey" : "f7c6b934"
+                        "globalKey" : "a49e8992"
                       }
                     },
                     "calculationAgent" : {
@@ -319,11 +314,11 @@
                     }
                   },
                   "meta" : {
-                    "globalKey" : "100d5601"
+                    "globalKey" : "b46da935"
                   }
                 },
                 "meta" : {
-                  "globalKey" : "100d5601"
+                  "globalKey" : "b46da935"
                 }
               },
               "tradeLot" : [ {
@@ -468,7 +463,7 @@
               }
             },
             "meta" : {
-              "globalKey" : "883cbbda"
+              "globalKey" : "5fa32af0"
             }
           },
           "transferHistory" : [ {
@@ -484,16 +479,29 @@
                   }
                 }
               },
+              "asset" : {
+                "Cash" : {
+                  "identifier" : [ {
+                    "identifier" : {
+                      "value" : "USD",
+                      "meta" : {
+                        "scheme" : "http://www.fpml.org/ext/iso4217"
+                      }
+                    },
+                    "identifierType" : "CurrencyCode"
+                  } ]
+                }
+              },
               "settlementDate" : {
                 "unadjustedDate" : "2017-06-02"
               }
             },
             "meta" : {
-              "globalKey" : "1e916af9"
+              "globalKey" : "f5aaa12e"
             }
           } ],
           "meta" : {
-            "globalKey" : "c601645f"
+            "globalKey" : "62ce383e"
           }
         }
       }
@@ -712,19 +720,14 @@
                         },
                         "referenceObligation" : [ {
                           "security" : {
-                            "productIdentifier" : [ {
-                              "value" : {
-                                "identifier" : {
-                                  "value" : "US635405AQ55",
-                                  "meta" : {
-                                    "scheme" : "http://www.fpml.org/spec/2002/instrument-id-ISIN"
-                                  }
-                                },
-                                "source" : "ISIN",
+                            "identifier" : [ {
+                              "identifier" : {
+                                "value" : "US635405AQ55",
                                 "meta" : {
-                                  "globalKey" : "d8591920"
+                                  "scheme" : "http://www.fpml.org/spec/2002/instrument-id-ISIN"
                                 }
-                              }
+                              },
+                              "identifierType" : "ISIN"
                             } ],
                             "securityType" : "Debt"
                           }
@@ -732,11 +735,11 @@
                       }
                     },
                     "meta" : {
-                      "globalKey" : "1c3ccc30"
+                      "globalKey" : "e7dc2716"
                     }
                   },
                   "meta" : {
-                    "globalKey" : "f7c6b934"
+                    "globalKey" : "a49e8992"
                   }
                 },
                 "calculationAgent" : {
@@ -750,11 +753,11 @@
                 }
               },
               "meta" : {
-                "globalKey" : "100d5601"
+                "globalKey" : "b46da935"
               }
             },
             "meta" : {
-              "globalKey" : "100d5601"
+              "globalKey" : "b46da935"
             }
           },
           "tradeLot" : [ {
@@ -965,7 +968,7 @@
           }
         },
         "meta" : {
-          "globalKey" : "d624774d"
+          "globalKey" : "aab11d63"
         }
       },
       "state" : {
@@ -984,24 +987,37 @@
               }
             }
           },
+          "asset" : {
+            "Cash" : {
+              "identifier" : [ {
+                "identifier" : {
+                  "value" : "USD",
+                  "meta" : {
+                    "scheme" : "http://www.fpml.org/ext/iso4217"
+                  }
+                },
+                "identifierType" : "CurrencyCode"
+              } ]
+            }
+          },
           "settlementDate" : {
             "unadjustedDate" : "2017-06-02"
           }
         },
         "meta" : {
-          "globalKey" : "1e916af9"
+          "globalKey" : "f5aaa12e"
         }
       } ],
       "meta" : {
-        "globalKey" : "af38a489"
+        "globalKey" : "3e1f768"
       }
     } ],
     "meta" : {
-      "globalKey" : "ca427393"
+      "globalKey" : "e7834f2f"
     }
   },
   "previousWorkflowStep" : {
-    "globalReference" : "a6d01a4b"
+    "globalReference" : "51affa4"
   },
   "messageInformation" : {
     "messageId" : {
@@ -1092,6 +1108,6 @@
     }
   } ],
   "meta" : {
-    "globalKey" : "eef9d0ed"
+    "globalKey" : "fee4bd1"
   }
 }

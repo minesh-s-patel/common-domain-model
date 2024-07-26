@@ -222,8 +222,24 @@
               } ]
             }
           } ],
+          "observable" : {
+            "index" : {
+              "ForeignExchangeRate" : {
+                "assetClass" : "ForeignExchange",
+                "quotedCurrencyPair" : {
+                  "currency1" : {
+                    "value" : "JPY"
+                  },
+                  "currency2" : {
+                    "value" : "USD"
+                  },
+                  "quoteBasis" : "Currency1PerCurrency2"
+                }
+              }
+            }
+          },
           "meta" : {
-            "globalKey" : "565d985"
+            "globalKey" : "b368fc"
           }
         } ]
       } ],
@@ -277,7 +293,7 @@
       }
     } ],
     "meta" : {
-      "globalKey" : "b1123c1e"
+      "globalKey" : "33f1fa95"
     }
   },
   "transferHistory" : [ {
@@ -288,6 +304,16 @@
           "currency" : {
             "value" : "USD"
           }
+        }
+      },
+      "asset" : {
+        "Cash" : {
+          "identifier" : [ {
+            "identifier" : {
+              "value" : "USD"
+            },
+            "identifierType" : "CurrencyCode"
+          } ]
         }
       },
       "payerReceiver" : {
@@ -314,10 +340,10 @@
       }
     },
     "meta" : {
-      "globalKey" : "9b3b518b"
+      "globalKey" : "89656336"
     }
   } ],
   "meta" : {
-    "globalKey" : "f4ae0229"
+    "globalKey" : "55a62ecb"
   }
 }

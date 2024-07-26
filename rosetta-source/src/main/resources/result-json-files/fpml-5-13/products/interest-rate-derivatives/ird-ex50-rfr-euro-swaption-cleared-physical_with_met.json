@@ -591,9 +591,6 @@
                   "value" : "rateOption-1"
                 } ]
               }
-            },
-            "meta" : {
-              "globalKey" : "12dfa6d0"
             }
           },
           "meta" : {
@@ -767,6 +764,16 @@
           }
         }
       },
+      "asset" : {
+        "Cash" : {
+          "identifier" : [ {
+            "identifier" : {
+              "value" : "GBP"
+            },
+            "identifierType" : "CurrencyCode"
+          } ]
+        }
+      },
       "payerReceiver" : {
         "payerPartyReference" : {
           "globalReference" : "1b3745e1",
@@ -799,10 +806,10 @@
       }
     },
     "meta" : {
-      "globalKey" : "65f3e403"
+      "globalKey" : "549a1ee9"
     }
   } ],
   "meta" : {
-    "globalKey" : "1086e00d"
+    "globalKey" : "fcfe6b73"
   }
 }

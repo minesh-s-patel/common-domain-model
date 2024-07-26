@@ -162,13 +162,19 @@
                 },
                 "underlier" : {
                   "commodity" : {
-                    "address" : {
-                      "scope" : "DOCUMENT",
-                      "value" : "commodity-1"
-                    }
+                    "identifier" : [ {
+                      "identifier" : {
+                        "value" : "NATURAL GAS-LOUISIANA (HENRY HUB)-GAS DAILY",
+                        "meta" : {
+                          "scheme" : "http://www.companyA.com/coding-scheme/commodity-reference-price"
+                        }
+                      },
+                      "identifierType" : "ISDACRP"
+                    } ],
+                    "priceQuoteType" : "Mid"
                   },
                   "meta" : {
-                    "globalKey" : "0"
+                    "globalKey" : "fc389813"
                   }
                 },
                 "optionType" : "Put",
@@ -202,11 +208,11 @@
                   }
                 },
                 "meta" : {
-                  "globalKey" : "3bb38f52"
+                  "globalKey" : "d5acf865"
                 }
               } ],
               "meta" : {
-                "globalKey" : "3bb38f52"
+                "globalKey" : "d5acf865"
               }
             },
             "calculationAgent" : {
@@ -214,11 +220,11 @@
             }
           },
           "meta" : {
-            "globalKey" : "b3e85fb9"
+            "globalKey" : "2121e4c"
           }
         },
         "meta" : {
-          "globalKey" : "b3e85fb9"
+          "globalKey" : "2121e4c"
         }
       },
       "tradeLot" : [ {
@@ -258,37 +264,23 @@
             }
           } ],
           "observable" : {
-            "commodity" : {
-              "value" : {
-                "productIdentifier" : [ {
-                  "value" : {
-                    "identifier" : {
-                      "value" : "NATURAL GAS-LOUISIANA (HENRY HUB)-GAS DAILY",
-                      "meta" : {
-                        "scheme" : "http://www.companyA.com/coding-scheme/commodity-reference-price"
-                      }
-                    },
-                    "source" : "ISDACRP",
+            "asset" : {
+              "Commodity" : {
+                "identifier" : [ {
+                  "identifier" : {
+                    "value" : "NATURAL GAS-LOUISIANA (HENRY HUB)-GAS DAILY",
                     "meta" : {
-                      "globalKey" : "737da8b5"
+                      "scheme" : "http://www.companyA.com/coding-scheme/commodity-reference-price"
                     }
-                  }
+                  },
+                  "identifierType" : "ISDACRP"
                 } ],
                 "priceQuoteType" : "Mid"
-              },
-              "meta" : {
-                "location" : [ {
-                  "scope" : "DOCUMENT",
-                  "value" : "commodity-1"
-                } ]
               }
-            },
-            "meta" : {
-              "globalKey" : "8ada6a4d"
             }
           },
           "meta" : {
-            "globalKey" : "5c3b3618"
+            "globalKey" : "ba5fda9e"
           }
         } ]
       } ],
@@ -399,7 +391,7 @@
       }
     },
     "meta" : {
-      "globalKey" : "6447b307"
+      "globalKey" : "4ff96894"
     }
   },
   "transferHistory" : [ {
@@ -410,6 +402,16 @@
           "currency" : {
             "value" : "USD"
           }
+        }
+      },
+      "asset" : {
+        "Cash" : {
+          "identifier" : [ {
+            "identifier" : {
+              "value" : "USD"
+            },
+            "identifierType" : "CurrencyCode"
+          } ]
         }
       },
       "payerReceiver" : {
@@ -436,10 +438,10 @@
       }
     },
     "meta" : {
-      "globalKey" : "92b6ebbe"
+      "globalKey" : "a75bf9a9"
     }
   } ],
   "meta" : {
-    "globalKey" : "d5408b05"
+    "globalKey" : "e789e63d"
   }
 }

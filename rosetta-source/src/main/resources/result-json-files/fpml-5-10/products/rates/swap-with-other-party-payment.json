@@ -414,9 +414,6 @@
                   "value" : "rateOption-1"
                 } ]
               }
-            },
-            "meta" : {
-              "globalKey" : "2505dd46"
             }
           },
           "meta" : {
@@ -565,6 +562,16 @@
           }
         }
       },
+      "asset" : {
+        "Cash" : {
+          "identifier" : [ {
+            "identifier" : {
+              "value" : "USD"
+            },
+            "identifierType" : "CurrencyCode"
+          } ]
+        }
+      },
       "payerReceiver" : {
         "payerPartyReference" : {
           "globalReference" : "9b11f66a",
@@ -588,10 +595,10 @@
       }
     },
     "meta" : {
-      "globalKey" : "ebec4333"
+      "globalKey" : "3a016128"
     }
   } ],
   "meta" : {
-    "globalKey" : "87488221"
+    "globalKey" : "d0c23596"
   }
 }

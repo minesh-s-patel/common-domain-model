@@ -1,13 +1,12 @@
-# _CDM Model - Modification to product condition_
+# _Infrastructure - Dependency Update_
 
 _What is being released?_
 
-Modified condition for `FpML_cd_30`
-- Addition of clause to allow `adjustedDate` check
+This release updates the `DSL` dependency.
 
-Modified condition for `Floating Rate` Option.
-- Addition of clause to allow posting of supplementary attribute `IndexReferenceInformation`
+Version updates include:
+- `DSL` 9.14.0: Support for accessing meta features after a deep feature call. For further details see DSL release notes: https://github.com/finos/rune-dsl/releases/tag/9.14.0
 
 _Review directions_
 
-The changes can be reviewed in PR: [#3035](https://github.com/finos/common-domain-model/pull/3035)
+The changes can be reviewed in PR: [#3064](https://github.com/finos/common-domain-model/pull/3064)

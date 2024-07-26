@@ -782,9 +782,6 @@
                           "value" : "rateOption-1"
                         } ]
                       }
-                    },
-                    "meta" : {
-                      "globalKey" : "828026c7"
                     }
                   },
                   "meta" : {
@@ -895,6 +892,16 @@
                   }
                 }
               },
+              "asset" : {
+                "Cash" : {
+                  "identifier" : [ {
+                    "identifier" : {
+                      "value" : "USD"
+                    },
+                    "identifierType" : "CurrencyCode"
+                  } ]
+                }
+              },
               "payerReceiver" : {
                 "payerPartyReference" : {
                   "globalReference" : "9d362d34",
@@ -927,11 +934,11 @@
               }
             },
             "meta" : {
-              "globalKey" : "48f59ccc"
+              "globalKey" : "450e0781"
             }
           } ],
           "meta" : {
-            "globalKey" : "cd8cbf58"
+            "globalKey" : "3e2c110d"
           }
         }
       }
@@ -970,6 +977,6 @@
     "workflowStatus" : "Terminated"
   },
   "meta" : {
-    "globalKey" : "a6d31c23"
+    "globalKey" : "9a863818"
   }
 }

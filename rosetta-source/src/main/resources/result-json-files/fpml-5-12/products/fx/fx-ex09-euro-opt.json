@@ -219,8 +219,24 @@
               } ]
             }
           } ],
+          "observable" : {
+            "index" : {
+              "ForeignExchangeRate" : {
+                "assetClass" : "ForeignExchange",
+                "quotedCurrencyPair" : {
+                  "currency1" : {
+                    "value" : "AUD"
+                  },
+                  "currency2" : {
+                    "value" : "USD"
+                  },
+                  "quoteBasis" : "Currency2PerCurrency1"
+                }
+              }
+            }
+          },
           "meta" : {
-            "globalKey" : "366f3262"
+            "globalKey" : "33d03b9a"
           }
         } ]
       } ],
@@ -280,7 +296,7 @@
       }
     } ],
     "meta" : {
-      "globalKey" : "25f9bdc9"
+      "globalKey" : "fd1be9c1"
     }
   },
   "transferHistory" : [ {
@@ -291,6 +307,16 @@
           "currency" : {
             "value" : "USD"
           }
+        }
+      },
+      "asset" : {
+        "Cash" : {
+          "identifier" : [ {
+            "identifier" : {
+              "value" : "USD"
+            },
+            "identifierType" : "CurrencyCode"
+          } ]
         }
       },
       "payerReceiver" : {
@@ -317,10 +343,10 @@
       }
     },
     "meta" : {
-      "globalKey" : "fdca569c"
+      "globalKey" : "8ea672c7"
     }
   } ],
   "meta" : {
-    "globalKey" : "3c759425"
+    "globalKey" : "49416988"
   }
 }

@@ -69,7 +69,7 @@
                   "seller" : "Party2"
                 },
                 "observationTerms" : {
-                  "pricingTime" : {
+                  "observationTime" : {
                     "hourMinuteTime" : "18:00:00",
                     "businessCenter" : {
                       "value" : "MXMC"
@@ -261,8 +261,32 @@
               } ]
             }
           } ],
+          "observable" : {
+            "index" : {
+              "ForeignExchangeRate" : {
+                "assetClass" : "ForeignExchange",
+                "quotedCurrencyPair" : {
+                  "currency1" : {
+                    "value" : "MXN"
+                  },
+                  "currency2" : {
+                    "value" : "USD"
+                  },
+                  "quoteBasis" : "Currency1PerCurrency2"
+                },
+                "primaryFxSpotRateSource" : {
+                  "sourceProvider" : {
+                    "value" : "Reuters"
+                  },
+                  "sourcePage" : {
+                    "value" : "BNBX"
+                  }
+                }
+              }
+            }
+          },
           "meta" : {
-            "globalKey" : "4de1a7c9"
+            "globalKey" : "de207a86"
           }
         } ]
       } ],
@@ -316,7 +340,7 @@
       }
     } ],
     "meta" : {
-      "globalKey" : "cec8b176"
+      "globalKey" : "f0eda109"
     }
   },
   "transferHistory" : [ {
@@ -327,6 +351,16 @@
           "currency" : {
             "value" : "USD"
           }
+        }
+      },
+      "asset" : {
+        "Cash" : {
+          "identifier" : [ {
+            "identifier" : {
+              "value" : "USD"
+            },
+            "identifierType" : "CurrencyCode"
+          } ]
         }
       },
       "payerReceiver" : {
@@ -353,10 +387,10 @@
       }
     },
     "meta" : {
-      "globalKey" : "4674d8b3"
+      "globalKey" : "ab28909e"
     }
   } ],
   "meta" : {
-    "globalKey" : "8d5c58a9"
+    "globalKey" : "eb35e6a7"
   }
 }

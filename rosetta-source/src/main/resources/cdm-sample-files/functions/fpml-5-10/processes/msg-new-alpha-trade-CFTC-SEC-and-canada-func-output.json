@@ -194,20 +194,6 @@
                     "source" : "ISDA",
                     "productQualifier" : "CreditDefaultSwap_SingleName"
                   } ],
-                  "productIdentifier" : [ {
-                    "value" : {
-                      "identifier" : {
-                        "value" : "X123",
-                        "meta" : {
-                          "scheme" : "http://www.theice.com/coding-scheme/product-id"
-                        }
-                      },
-                      "source" : "Other",
-                      "meta" : {
-                        "globalKey" : "96fa356"
-                      }
-                    }
-                  } ],
                   "economicTerms" : {
                     "effectiveDate" : {
                       "adjustableDate" : {
@@ -339,19 +325,14 @@
                             },
                             "referenceObligation" : [ {
                               "security" : {
-                                "productIdentifier" : [ {
-                                  "value" : {
-                                    "identifier" : {
-                                      "value" : "8G836JAF2",
-                                      "meta" : {
-                                        "scheme" : "http://www.fpml.org/spec/2003/instrument-id-RED-pair-1-0"
-                                      }
-                                    },
-                                    "source" : "Other",
+                                "identifier" : [ {
+                                  "identifier" : {
+                                    "value" : "8G836JAF2",
                                     "meta" : {
-                                      "globalKey" : "3702c381"
+                                      "scheme" : "http://www.fpml.org/spec/2003/instrument-id-RED-pair-1-0"
                                     }
-                                  }
+                                  },
+                                  "identifierType" : "Other"
                                 } ],
                                 "securityType" : "Debt"
                               }
@@ -362,21 +343,33 @@
                           "marketFixedRate" : 0.02
                         },
                         "meta" : {
-                          "globalKey" : "30f0c53a"
+                          "globalKey" : "c847dc2a"
                         }
                       },
                       "meta" : {
-                        "globalKey" : "db6b813e"
+                        "globalKey" : "bd438fa6"
                       }
                     },
                     "nonStandardisedTerms" : true
                   },
+                  "productIdentifier" : [ {
+                    "identifier" : {
+                      "value" : "X123",
+                      "meta" : {
+                        "scheme" : "http://www.theice.com/coding-scheme/product-id"
+                      }
+                    },
+                    "source" : "Other",
+                    "meta" : {
+                      "globalKey" : "96fa356"
+                    }
+                  } ],
                   "meta" : {
-                    "globalKey" : "2da51b3f"
+                    "globalKey" : "d03e938b"
                   }
                 },
                 "meta" : {
-                  "globalKey" : "2da51b3f"
+                  "globalKey" : "d03e938b"
                 }
               },
               "tradeLot" : [ {
@@ -753,7 +746,7 @@
               }
             } ],
             "meta" : {
-              "globalKey" : "448852c8"
+              "globalKey" : "43c48c54"
             }
           },
           "transferHistory" : [ {
@@ -764,6 +757,16 @@
                   "currency" : {
                     "value" : "USD"
                   }
+                }
+              },
+              "asset" : {
+                "Cash" : {
+                  "identifier" : [ {
+                    "identifier" : {
+                      "value" : "USD"
+                    },
+                    "identifierType" : "CurrencyCode"
+                  } ]
                 }
               },
               "payerReceiver" : {
@@ -790,11 +793,11 @@
               }
             },
             "meta" : {
-              "globalKey" : "5e76fb4a"
+              "globalKey" : "e8e63db5"
             }
           } ],
           "meta" : {
-            "globalKey" : "b29cc412"
+            "globalKey" : "451e2a09"
           }
         }
       }
@@ -884,20 +887,6 @@
               }, {
                 "source" : "ISDA",
                 "productQualifier" : "CreditDefaultSwap_SingleName"
-              } ],
-              "productIdentifier" : [ {
-                "value" : {
-                  "identifier" : {
-                    "value" : "X123",
-                    "meta" : {
-                      "scheme" : "http://www.theice.com/coding-scheme/product-id"
-                    }
-                  },
-                  "source" : "Other",
-                  "meta" : {
-                    "globalKey" : "96fa356"
-                  }
-                }
               } ],
               "economicTerms" : {
                 "effectiveDate" : {
@@ -1030,19 +1019,14 @@
                         },
                         "referenceObligation" : [ {
                           "security" : {
-                            "productIdentifier" : [ {
-                              "value" : {
-                                "identifier" : {
-                                  "value" : "8G836JAF2",
-                                  "meta" : {
-                                    "scheme" : "http://www.fpml.org/spec/2003/instrument-id-RED-pair-1-0"
-                                  }
-                                },
-                                "source" : "Other",
+                            "identifier" : [ {
+                              "identifier" : {
+                                "value" : "8G836JAF2",
                                 "meta" : {
-                                  "globalKey" : "3702c381"
+                                  "scheme" : "http://www.fpml.org/spec/2003/instrument-id-RED-pair-1-0"
                                 }
-                              }
+                              },
+                              "identifierType" : "Other"
                             } ],
                             "securityType" : "Debt"
                           }
@@ -1053,21 +1037,33 @@
                       "marketFixedRate" : 0.02
                     },
                     "meta" : {
-                      "globalKey" : "30f0c53a"
+                      "globalKey" : "c847dc2a"
                     }
                   },
                   "meta" : {
-                    "globalKey" : "db6b813e"
+                    "globalKey" : "bd438fa6"
                   }
                 },
                 "nonStandardisedTerms" : true
               },
+              "productIdentifier" : [ {
+                "identifier" : {
+                  "value" : "X123",
+                  "meta" : {
+                    "scheme" : "http://www.theice.com/coding-scheme/product-id"
+                  }
+                },
+                "source" : "Other",
+                "meta" : {
+                  "globalKey" : "96fa356"
+                }
+              } ],
               "meta" : {
-                "globalKey" : "2da51b3f"
+                "globalKey" : "d03e938b"
               }
             },
             "meta" : {
-              "globalKey" : "2da51b3f"
+              "globalKey" : "d03e938b"
             }
           },
           "tradeLot" : [ {
@@ -1550,7 +1546,7 @@
           }
         },
         "meta" : {
-          "globalKey" : "f69d0d3b"
+          "globalKey" : "cd4e47c7"
         }
       },
       "state" : {
@@ -1564,6 +1560,16 @@
               "currency" : {
                 "value" : "USD"
               }
+            }
+          },
+          "asset" : {
+            "Cash" : {
+              "identifier" : [ {
+                "identifier" : {
+                  "value" : "USD"
+                },
+                "identifierType" : "CurrencyCode"
+              } ]
             }
           },
           "payerReceiver" : {
@@ -1590,19 +1596,19 @@
           }
         },
         "meta" : {
-          "globalKey" : "5e76fb4a"
+          "globalKey" : "e8e63db5"
         }
       } ],
       "meta" : {
-        "globalKey" : "e58a0a8"
+        "globalKey" : "270c4c1f"
       }
     } ],
     "meta" : {
-      "globalKey" : "eeb7729b"
+      "globalKey" : "e1bbbbbb"
     }
   },
   "previousWorkflowStep" : {
-    "globalReference" : "490c8df4"
+    "globalReference" : "4960b8eb"
   },
   "messageInformation" : {
     "messageId" : {
@@ -1926,6 +1932,6 @@
     }
   } ],
   "meta" : {
-    "globalKey" : "4a155006"
+    "globalKey" : "c1850ae6"
   }
 }

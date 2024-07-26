@@ -610,9 +610,6 @@
                         "value" : "rateOption-1"
                       } ]
                     }
-                  },
-                  "meta" : {
-                    "globalKey" : "2bba2221"
                   }
                 },
                 "meta" : {
@@ -751,6 +748,16 @@
                 }
               }
             },
+            "asset" : {
+              "Cash" : {
+                "identifier" : [ {
+                  "identifier" : {
+                    "value" : "EUR"
+                  },
+                  "identifierType" : "CurrencyCode"
+                } ]
+              }
+            },
             "payerReceiver" : {
               "payerPartyReference" : {
                 "globalReference" : "1e7247b5",
@@ -783,11 +790,11 @@
             }
           },
           "meta" : {
-            "globalKey" : "585669e1"
+            "globalKey" : "4339831a"
           }
         } ],
         "meta" : {
-          "globalKey" : "fa079aae"
+          "globalKey" : "a3a42627"
         }
       }
     }
@@ -1356,9 +1363,6 @@
                     "value" : "rateOption-1"
                   } ]
                 }
-              },
-              "meta" : {
-                "globalKey" : "2bba2221"
               }
             },
             "meta" : {
@@ -1497,6 +1501,16 @@
             }
           }
         },
+        "asset" : {
+          "Cash" : {
+            "identifier" : [ {
+              "identifier" : {
+                "value" : "EUR"
+              },
+              "identifierType" : "CurrencyCode"
+            } ]
+          }
+        },
         "payerReceiver" : {
           "payerPartyReference" : {
             "globalReference" : "1e7247b5",
@@ -1529,11 +1543,11 @@
         }
       },
       "meta" : {
-        "globalKey" : "585669e1"
+        "globalKey" : "4339831a"
       }
     } ],
     "meta" : {
-      "globalKey" : "dfbb1f0e"
+      "globalKey" : "c3fae287"
     }
   }, {
     "trade" : {
@@ -1993,9 +2007,6 @@
                     "value" : "rateOption-1"
                   } ]
                 }
-              },
-              "meta" : {
-                "globalKey" : "2bba2221"
               }
             },
             "meta" : {
@@ -2132,6 +2143,6 @@
     }
   } ],
   "meta" : {
-    "globalKey" : "18b05e78"
+    "globalKey" : "c7542d18"
   }
 }

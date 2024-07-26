@@ -39,6 +39,16 @@
                   }
                 }
               },
+              "asset" : {
+                "Cash" : {
+                  "identifier" : [ {
+                    "identifier" : {
+                      "value" : "USD"
+                    },
+                    "identifierType" : "CurrencyCode"
+                  } ]
+                }
+              },
               "payerReceiver" : {
                 "payerPartyReference" : {
                   "globalReference" : "f08ad79f",
@@ -62,7 +72,7 @@
               }
             },
             "meta" : {
-              "globalKey" : "f39d80b4"
+              "globalKey" : "d5798069"
             }
           } ]
         }
@@ -116,17 +126,6 @@
                   }, {
                     "source" : "ISDA",
                     "productQualifier" : "InterestRate_IRSwap_FixedFloat"
-                  } ],
-                  "productIdentifier" : [ {
-                    "value" : {
-                      "identifier" : {
-                        "value" : "SWI-ST-USD-IRS"
-                      },
-                      "source" : "Other",
-                      "meta" : {
-                        "globalKey" : "dff03671"
-                      }
-                    }
                   } ],
                   "economicTerms" : {
                     "payout" : {
@@ -465,12 +464,21 @@
                     },
                     "nonStandardisedTerms" : false
                   },
+                  "productIdentifier" : [ {
+                    "identifier" : {
+                      "value" : "SWI-ST-USD-IRS"
+                    },
+                    "source" : "Other",
+                    "meta" : {
+                      "globalKey" : "dff03671"
+                    }
+                  } ],
                   "meta" : {
-                    "globalKey" : "60bdb1fe"
+                    "globalKey" : "d5af5344"
                   }
                 },
                 "meta" : {
-                  "globalKey" : "60bdb1fe"
+                  "globalKey" : "d5af5344"
                 }
               },
               "tradeLot" : [ {
@@ -514,9 +522,6 @@
                           "value" : "rateOption-1"
                         } ]
                       }
-                    },
-                    "meta" : {
-                      "globalKey" : "828026c7"
                     }
                   },
                   "meta" : {
@@ -706,11 +711,11 @@
               }
             } ],
             "meta" : {
-              "globalKey" : "4bcb8967"
+              "globalKey" : "96f3a1a3"
             }
           },
           "meta" : {
-            "globalKey" : "4bcb8967"
+            "globalKey" : "96f3a1a3"
           }
         }
       }
@@ -764,17 +769,6 @@
               }, {
                 "source" : "ISDA",
                 "productQualifier" : "InterestRate_IRSwap_FixedFloat"
-              } ],
-              "productIdentifier" : [ {
-                "value" : {
-                  "identifier" : {
-                    "value" : "SWI-ST-USD-IRS"
-                  },
-                  "source" : "Other",
-                  "meta" : {
-                    "globalKey" : "dff03671"
-                  }
-                }
               } ],
               "economicTerms" : {
                 "payout" : {
@@ -1113,12 +1107,21 @@
                 },
                 "nonStandardisedTerms" : false
               },
+              "productIdentifier" : [ {
+                "identifier" : {
+                  "value" : "SWI-ST-USD-IRS"
+                },
+                "source" : "Other",
+                "meta" : {
+                  "globalKey" : "dff03671"
+                }
+              } ],
               "meta" : {
-                "globalKey" : "60bdb1fe"
+                "globalKey" : "d5af5344"
               }
             },
             "meta" : {
-              "globalKey" : "60bdb1fe"
+              "globalKey" : "d5af5344"
             }
           },
           "tradeLot" : [ {
@@ -1162,9 +1165,6 @@
                       "value" : "rateOption-1"
                     } ]
                   }
-                },
-                "meta" : {
-                  "globalKey" : "828026c7"
                 }
               },
               "meta" : {
@@ -1354,7 +1354,7 @@
           }
         } ],
         "meta" : {
-          "globalKey" : "b5b11b87"
+          "globalKey" : "d933c3"
         }
       },
       "transferHistory" : [ {
@@ -1365,6 +1365,16 @@
               "currency" : {
                 "value" : "USD"
               }
+            }
+          },
+          "asset" : {
+            "Cash" : {
+              "identifier" : [ {
+                "identifier" : {
+                  "value" : "USD"
+                },
+                "identifierType" : "CurrencyCode"
+              } ]
             }
           },
           "payerReceiver" : {
@@ -1390,19 +1400,19 @@
           }
         },
         "meta" : {
-          "globalKey" : "f39d80b4"
+          "globalKey" : "d5798069"
         }
       } ],
       "meta" : {
-        "globalKey" : "b1a1dd8d"
+        "globalKey" : "ba12b0c6"
       }
     } ],
     "meta" : {
-      "globalKey" : "b91f642f"
+      "globalKey" : "dbc8f733"
     }
   },
   "previousWorkflowStep" : {
-    "globalReference" : "56e27c5"
+    "globalReference" : "78362c0c"
   },
   "messageInformation" : {
     "messageId" : {
@@ -1542,6 +1552,6 @@
     }
   } ],
   "meta" : {
-    "globalKey" : "ab80a664"
+    "globalKey" : "3526fee0"
   }
 }

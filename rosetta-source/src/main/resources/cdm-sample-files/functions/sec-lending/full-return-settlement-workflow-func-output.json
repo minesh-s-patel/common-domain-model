@@ -257,16 +257,11 @@
                                     } ],
                                     "securityInformation" : {
                                       "security" : {
-                                        "productIdentifier" : [ {
-                                          "value" : {
-                                            "identifier" : {
-                                              "value" : "ST001"
-                                            },
-                                            "source" : "SEDOL",
-                                            "meta" : {
-                                              "globalKey" : "970a835f"
-                                            }
-                                          }
+                                        "identifier" : [ {
+                                          "identifier" : {
+                                            "value" : "ST001"
+                                          },
+                                          "identifierType" : "SEDOL"
                                         } ],
                                         "securityType" : "Equity"
                                       },
@@ -294,25 +289,25 @@
                                       }
                                     },
                                     "meta" : {
-                                      "globalKey" : "2b0895ae"
+                                      "globalKey" : "8197590c"
                                     }
                                   } ],
                                   "meta" : {
-                                    "globalKey" : "2b0895ae"
+                                    "globalKey" : "8197590c"
                                   }
                                 }
                               },
                               "meta" : {
-                                "globalKey" : "2b0895ae"
+                                "globalKey" : "8197590c"
                               }
                             },
                             "meta" : {
-                              "globalKey" : "2b0895ae"
+                              "globalKey" : "8197590c"
                             }
                           }
                         } ],
                         "meta" : {
-                          "globalKey" : "2b0895ae"
+                          "globalKey" : "8197590c"
                         }
                       }
                     } ],
@@ -327,16 +322,16 @@
                       } ]
                     },
                     "meta" : {
-                      "globalKey" : "ea144161"
+                      "globalKey" : "69ce863f"
                     }
                   }
                 },
                 "meta" : {
-                  "globalKey" : "cffa360f"
+                  "globalKey" : "e2043d1"
                 }
               },
               "meta" : {
-                "globalKey" : "cffa360f"
+                "globalKey" : "e2043d1"
               }
             },
             "tradeLot" : [ {
@@ -418,23 +413,21 @@
                   }
                 } ],
                 "observable" : {
-                  "productIdentifier" : [ {
-                    "value" : {
-                      "identifier" : {
-                        "value" : "ST001"
-                      },
-                      "source" : "SEDOL",
-                      "meta" : {
-                        "globalKey" : "970a835f"
+                  "asset" : {
+                    "Instrument" : {
+                      "Security" : {
+                        "identifier" : [ {
+                          "identifier" : {
+                            "value" : "ST001"
+                          },
+                          "identifierType" : "SEDOL"
+                        } ]
                       }
                     }
-                  } ],
-                  "meta" : {
-                    "globalKey" : "970a835f"
                   }
                 },
                 "meta" : {
-                  "globalKey" : "6bcfdf98"
+                  "globalKey" : "4fe9b558"
                 }
               } ]
             } ],
@@ -532,7 +525,7 @@
             }
           } ],
           "meta" : {
-            "globalKey" : "fdfb722d"
+            "globalKey" : "5cb10415"
           }
         },
         "state" : {
@@ -598,12 +591,12 @@
             },
             "settlementOrigin" : {
               "assetPayout" : {
-                "globalReference" : "2b0895ae"
+                "globalReference" : "8197590c"
               }
             }
           },
           "meta" : {
-            "globalKey" : "cc233170"
+            "globalKey" : "44b93d0a"
           }
         }, {
           "transfer" : {
@@ -613,20 +606,16 @@
                 "financialUnit" : "Share"
               }
             },
-            "observable" : {
-              "productIdentifier" : [ {
-                "value" : {
-                  "identifier" : {
-                    "value" : "ST001"
-                  },
-                  "source" : "SEDOL",
-                  "meta" : {
-                    "globalKey" : "970a835f"
-                  }
+            "asset" : {
+              "Instrument" : {
+                "Security" : {
+                  "identifier" : [ {
+                    "identifier" : {
+                      "value" : "ST001"
+                    },
+                    "identifierType" : "SEDOL"
+                  } ]
                 }
-              } ],
-              "meta" : {
-                "globalKey" : "970a835f"
               }
             },
             "payerReceiver" : {
@@ -679,20 +668,20 @@
             },
             "settlementOrigin" : {
               "assetPayout" : {
-                "globalReference" : "2b0895ae"
+                "globalReference" : "8197590c"
               }
             }
           },
           "meta" : {
-            "globalKey" : "c9b798f"
+            "globalKey" : "81eb0b25"
           }
         } ],
         "meta" : {
-          "globalKey" : "2b1f6626"
+          "globalKey" : "2deff1dc"
         }
       } ],
       "meta" : {
-        "globalKey" : "704206fb"
+        "globalKey" : "731292b1"
       }
     },
     "messageInformation" : {
@@ -716,7 +705,7 @@
     } ],
     "action" : "New",
     "meta" : {
-      "globalKey" : "ec0032"
+      "globalKey" : "93226bc"
     }
   }, {
     "proposedEvent" : {
@@ -784,12 +773,12 @@
                 },
                 "settlementOrigin" : {
                   "assetPayout" : {
-                    "globalReference" : "2b0895ae"
+                    "globalReference" : "8197590c"
                   }
                 }
               },
               "meta" : {
-                "globalKey" : "ef3eb5a"
+                "globalKey" : "15549de0"
               }
             }, {
               "transfer" : {
@@ -799,20 +788,16 @@
                     "financialUnit" : "Share"
                   }
                 },
-                "observable" : {
-                  "productIdentifier" : [ {
-                    "value" : {
-                      "identifier" : {
-                        "value" : "ST001"
-                      },
-                      "source" : "SEDOL",
-                      "meta" : {
-                        "globalKey" : "970a835f"
-                      }
+                "asset" : {
+                  "Instrument" : {
+                    "Security" : {
+                      "identifier" : [ {
+                        "identifier" : {
+                          "value" : "ST001"
+                        },
+                        "identifierType" : "SEDOL"
+                      } ]
                     }
-                  } ],
-                  "meta" : {
-                    "globalKey" : "970a835f"
                   }
                 },
                 "payerReceiver" : {
@@ -865,12 +850,12 @@
                 },
                 "settlementOrigin" : {
                   "assetPayout" : {
-                    "globalReference" : "2b0895ae"
+                    "globalReference" : "8197590c"
                   }
                 }
               },
               "meta" : {
-                "globalKey" : "c9cabfa5"
+                "globalKey" : "b14faa4f"
               }
             } ]
           }
@@ -1131,16 +1116,11 @@
                                         } ],
                                         "securityInformation" : {
                                           "security" : {
-                                            "productIdentifier" : [ {
-                                              "value" : {
-                                                "identifier" : {
-                                                  "value" : "ST001"
-                                                },
-                                                "source" : "SEDOL",
-                                                "meta" : {
-                                                  "globalKey" : "970a835f"
-                                                }
-                                              }
+                                            "identifier" : [ {
+                                              "identifier" : {
+                                                "value" : "ST001"
+                                              },
+                                              "identifierType" : "SEDOL"
                                             } ],
                                             "securityType" : "Equity"
                                           },
@@ -1168,25 +1148,25 @@
                                           }
                                         },
                                         "meta" : {
-                                          "globalKey" : "2b0895ae"
+                                          "globalKey" : "8197590c"
                                         }
                                       } ],
                                       "meta" : {
-                                        "globalKey" : "2b0895ae"
+                                        "globalKey" : "8197590c"
                                       }
                                     }
                                   },
                                   "meta" : {
-                                    "globalKey" : "2b0895ae"
+                                    "globalKey" : "8197590c"
                                   }
                                 },
                                 "meta" : {
-                                  "globalKey" : "2b0895ae"
+                                  "globalKey" : "8197590c"
                                 }
                               }
                             } ],
                             "meta" : {
-                              "globalKey" : "2b0895ae"
+                              "globalKey" : "8197590c"
                             }
                           }
                         } ],
@@ -1201,16 +1181,16 @@
                           } ]
                         },
                         "meta" : {
-                          "globalKey" : "ea144161"
+                          "globalKey" : "69ce863f"
                         }
                       }
                     },
                     "meta" : {
-                      "globalKey" : "cffa360f"
+                      "globalKey" : "e2043d1"
                     }
                   },
                   "meta" : {
-                    "globalKey" : "cffa360f"
+                    "globalKey" : "e2043d1"
                   }
                 },
                 "tradeLot" : [ {
@@ -1292,23 +1272,21 @@
                       }
                     } ],
                     "observable" : {
-                      "productIdentifier" : [ {
-                        "value" : {
-                          "identifier" : {
-                            "value" : "ST001"
-                          },
-                          "source" : "SEDOL",
-                          "meta" : {
-                            "globalKey" : "970a835f"
+                      "asset" : {
+                        "Instrument" : {
+                          "Security" : {
+                            "identifier" : [ {
+                              "identifier" : {
+                                "value" : "ST001"
+                              },
+                              "identifierType" : "SEDOL"
+                            } ]
                           }
                         }
-                      } ],
-                      "meta" : {
-                        "globalKey" : "970a835f"
                       }
                     },
                     "meta" : {
-                      "globalKey" : "6bcfdf98"
+                      "globalKey" : "4fe9b558"
                     }
                   } ]
                 } ],
@@ -1406,7 +1384,7 @@
                 }
               } ],
               "meta" : {
-                "globalKey" : "fdfb722d"
+                "globalKey" : "5cb10415"
               }
             },
             "state" : {
@@ -1472,12 +1450,12 @@
                 },
                 "settlementOrigin" : {
                   "assetPayout" : {
-                    "globalReference" : "2b0895ae"
+                    "globalReference" : "8197590c"
                   }
                 }
               },
               "meta" : {
-                "globalKey" : "cc233170"
+                "globalKey" : "44b93d0a"
               }
             }, {
               "transfer" : {
@@ -1487,20 +1465,16 @@
                     "financialUnit" : "Share"
                   }
                 },
-                "observable" : {
-                  "productIdentifier" : [ {
-                    "value" : {
-                      "identifier" : {
-                        "value" : "ST001"
-                      },
-                      "source" : "SEDOL",
-                      "meta" : {
-                        "globalKey" : "970a835f"
-                      }
+                "asset" : {
+                  "Instrument" : {
+                    "Security" : {
+                      "identifier" : [ {
+                        "identifier" : {
+                          "value" : "ST001"
+                        },
+                        "identifierType" : "SEDOL"
+                      } ]
                     }
-                  } ],
-                  "meta" : {
-                    "globalKey" : "970a835f"
                   }
                 },
                 "payerReceiver" : {
@@ -1553,23 +1527,23 @@
                 },
                 "settlementOrigin" : {
                   "assetPayout" : {
-                    "globalReference" : "2b0895ae"
+                    "globalReference" : "8197590c"
                   }
                 }
               },
               "meta" : {
-                "globalKey" : "c9b798f"
+                "globalKey" : "81eb0b25"
               }
             } ],
             "meta" : {
-              "globalKey" : "2b1f6626"
+              "globalKey" : "2deff1dc"
             }
           }
         }
       } ]
     },
     "previousWorkflowStep" : {
-      "globalReference" : "e4878d32"
+      "globalReference" : "382d35ce"
     },
     "messageInformation" : {
       "messageId" : {
@@ -1591,7 +1565,7 @@
       }
     } ],
     "meta" : {
-      "globalKey" : "50d43273"
+      "globalKey" : "795a1f75"
     }
   }, {
     "businessEvent" : {
@@ -1659,12 +1633,12 @@
                 },
                 "settlementOrigin" : {
                   "assetPayout" : {
-                    "globalReference" : "2b0895ae"
+                    "globalReference" : "8197590c"
                   }
                 }
               },
               "meta" : {
-                "globalKey" : "ef3eb5a"
+                "globalKey" : "15549de0"
               }
             }, {
               "transfer" : {
@@ -1674,20 +1648,16 @@
                     "financialUnit" : "Share"
                   }
                 },
-                "observable" : {
-                  "productIdentifier" : [ {
-                    "value" : {
-                      "identifier" : {
-                        "value" : "ST001"
-                      },
-                      "source" : "SEDOL",
-                      "meta" : {
-                        "globalKey" : "970a835f"
-                      }
+                "asset" : {
+                  "Instrument" : {
+                    "Security" : {
+                      "identifier" : [ {
+                        "identifier" : {
+                          "value" : "ST001"
+                        },
+                        "identifierType" : "SEDOL"
+                      } ]
                     }
-                  } ],
-                  "meta" : {
-                    "globalKey" : "970a835f"
                   }
                 },
                 "payerReceiver" : {
@@ -1740,12 +1710,12 @@
                 },
                 "settlementOrigin" : {
                   "assetPayout" : {
-                    "globalReference" : "2b0895ae"
+                    "globalReference" : "8197590c"
                   }
                 }
               },
               "meta" : {
-                "globalKey" : "c9cabfa5"
+                "globalKey" : "b14faa4f"
               }
             } ]
           }
@@ -2006,16 +1976,11 @@
                                         } ],
                                         "securityInformation" : {
                                           "security" : {
-                                            "productIdentifier" : [ {
-                                              "value" : {
-                                                "identifier" : {
-                                                  "value" : "ST001"
-                                                },
-                                                "source" : "SEDOL",
-                                                "meta" : {
-                                                  "globalKey" : "970a835f"
-                                                }
-                                              }
+                                            "identifier" : [ {
+                                              "identifier" : {
+                                                "value" : "ST001"
+                                              },
+                                              "identifierType" : "SEDOL"
                                             } ],
                                             "securityType" : "Equity"
                                           },
@@ -2043,25 +2008,25 @@
                                           }
                                         },
                                         "meta" : {
-                                          "globalKey" : "2b0895ae"
+                                          "globalKey" : "8197590c"
                                         }
                                       } ],
                                       "meta" : {
-                                        "globalKey" : "2b0895ae"
+                                        "globalKey" : "8197590c"
                                       }
                                     }
                                   },
                                   "meta" : {
-                                    "globalKey" : "2b0895ae"
+                                    "globalKey" : "8197590c"
                                   }
                                 },
                                 "meta" : {
-                                  "globalKey" : "2b0895ae"
+                                  "globalKey" : "8197590c"
                                 }
                               }
                             } ],
                             "meta" : {
-                              "globalKey" : "2b0895ae"
+                              "globalKey" : "8197590c"
                             }
                           }
                         } ],
@@ -2076,16 +2041,16 @@
                           } ]
                         },
                         "meta" : {
-                          "globalKey" : "ea144161"
+                          "globalKey" : "69ce863f"
                         }
                       }
                     },
                     "meta" : {
-                      "globalKey" : "cffa360f"
+                      "globalKey" : "e2043d1"
                     }
                   },
                   "meta" : {
-                    "globalKey" : "cffa360f"
+                    "globalKey" : "e2043d1"
                   }
                 },
                 "tradeLot" : [ {
@@ -2167,23 +2132,21 @@
                       }
                     } ],
                     "observable" : {
-                      "productIdentifier" : [ {
-                        "value" : {
-                          "identifier" : {
-                            "value" : "ST001"
-                          },
-                          "source" : "SEDOL",
-                          "meta" : {
-                            "globalKey" : "970a835f"
+                      "asset" : {
+                        "Instrument" : {
+                          "Security" : {
+                            "identifier" : [ {
+                              "identifier" : {
+                                "value" : "ST001"
+                              },
+                              "identifierType" : "SEDOL"
+                            } ]
                           }
                         }
-                      } ],
-                      "meta" : {
-                        "globalKey" : "970a835f"
                       }
                     },
                     "meta" : {
-                      "globalKey" : "6bcfdf98"
+                      "globalKey" : "4fe9b558"
                     }
                   } ]
                 } ],
@@ -2281,7 +2244,7 @@
                 }
               } ],
               "meta" : {
-                "globalKey" : "fdfb722d"
+                "globalKey" : "5cb10415"
               }
             },
             "state" : {
@@ -2347,12 +2310,12 @@
                 },
                 "settlementOrigin" : {
                   "assetPayout" : {
-                    "globalReference" : "2b0895ae"
+                    "globalReference" : "8197590c"
                   }
                 }
               },
               "meta" : {
-                "globalKey" : "cc233170"
+                "globalKey" : "44b93d0a"
               }
             }, {
               "transfer" : {
@@ -2362,20 +2325,16 @@
                     "financialUnit" : "Share"
                   }
                 },
-                "observable" : {
-                  "productIdentifier" : [ {
-                    "value" : {
-                      "identifier" : {
-                        "value" : "ST001"
-                      },
-                      "source" : "SEDOL",
-                      "meta" : {
-                        "globalKey" : "970a835f"
-                      }
+                "asset" : {
+                  "Instrument" : {
+                    "Security" : {
+                      "identifier" : [ {
+                        "identifier" : {
+                          "value" : "ST001"
+                        },
+                        "identifierType" : "SEDOL"
+                      } ]
                     }
-                  } ],
-                  "meta" : {
-                    "globalKey" : "970a835f"
                   }
                 },
                 "payerReceiver" : {
@@ -2428,16 +2387,16 @@
                 },
                 "settlementOrigin" : {
                   "assetPayout" : {
-                    "globalReference" : "2b0895ae"
+                    "globalReference" : "8197590c"
                   }
                 }
               },
               "meta" : {
-                "globalKey" : "c9b798f"
+                "globalKey" : "81eb0b25"
               }
             } ],
             "meta" : {
-              "globalKey" : "2b1f6626"
+              "globalKey" : "2deff1dc"
             }
           }
         }
@@ -2698,16 +2657,11 @@
                                     } ],
                                     "securityInformation" : {
                                       "security" : {
-                                        "productIdentifier" : [ {
-                                          "value" : {
-                                            "identifier" : {
-                                              "value" : "ST001"
-                                            },
-                                            "source" : "SEDOL",
-                                            "meta" : {
-                                              "globalKey" : "970a835f"
-                                            }
-                                          }
+                                        "identifier" : [ {
+                                          "identifier" : {
+                                            "value" : "ST001"
+                                          },
+                                          "identifierType" : "SEDOL"
                                         } ],
                                         "securityType" : "Equity"
                                       },
@@ -2735,25 +2689,25 @@
                                       }
                                     },
                                     "meta" : {
-                                      "globalKey" : "2b0895ae"
+                                      "globalKey" : "8197590c"
                                     }
                                   } ],
                                   "meta" : {
-                                    "globalKey" : "2b0895ae"
+                                    "globalKey" : "8197590c"
                                   }
                                 }
                               },
                               "meta" : {
-                                "globalKey" : "2b0895ae"
+                                "globalKey" : "8197590c"
                               }
                             },
                             "meta" : {
-                              "globalKey" : "2b0895ae"
+                              "globalKey" : "8197590c"
                             }
                           }
                         } ],
                         "meta" : {
-                          "globalKey" : "2b0895ae"
+                          "globalKey" : "8197590c"
                         }
                       }
                     } ],
@@ -2768,16 +2722,16 @@
                       } ]
                     },
                     "meta" : {
-                      "globalKey" : "ea144161"
+                      "globalKey" : "69ce863f"
                     }
                   }
                 },
                 "meta" : {
-                  "globalKey" : "cffa360f"
+                  "globalKey" : "e2043d1"
                 }
               },
               "meta" : {
-                "globalKey" : "cffa360f"
+                "globalKey" : "e2043d1"
               }
             },
             "tradeLot" : [ {
@@ -2859,23 +2813,21 @@
                   }
                 } ],
                 "observable" : {
-                  "productIdentifier" : [ {
-                    "value" : {
-                      "identifier" : {
-                        "value" : "ST001"
-                      },
-                      "source" : "SEDOL",
-                      "meta" : {
-                        "globalKey" : "970a835f"
+                  "asset" : {
+                    "Instrument" : {
+                      "Security" : {
+                        "identifier" : [ {
+                          "identifier" : {
+                            "value" : "ST001"
+                          },
+                          "identifierType" : "SEDOL"
+                        } ]
                       }
                     }
-                  } ],
-                  "meta" : {
-                    "globalKey" : "970a835f"
                   }
                 },
                 "meta" : {
-                  "globalKey" : "6bcfdf98"
+                  "globalKey" : "4fe9b558"
                 }
               } ]
             } ],
@@ -2973,7 +2925,7 @@
             }
           } ],
           "meta" : {
-            "globalKey" : "fdfb722d"
+            "globalKey" : "5cb10415"
           }
         },
         "state" : {
@@ -3042,12 +2994,12 @@
             },
             "settlementOrigin" : {
               "assetPayout" : {
-                "globalReference" : "2b0895ae"
+                "globalReference" : "8197590c"
               }
             }
           },
           "meta" : {
-            "globalKey" : "cc233170"
+            "globalKey" : "44b93d0a"
           }
         }, {
           "transfer" : {
@@ -3057,20 +3009,16 @@
                 "financialUnit" : "Share"
               }
             },
-            "observable" : {
-              "productIdentifier" : [ {
-                "value" : {
-                  "identifier" : {
-                    "value" : "ST001"
-                  },
-                  "source" : "SEDOL",
-                  "meta" : {
-                    "globalKey" : "970a835f"
-                  }
+            "asset" : {
+              "Instrument" : {
+                "Security" : {
+                  "identifier" : [ {
+                    "identifier" : {
+                      "value" : "ST001"
+                    },
+                    "identifierType" : "SEDOL"
+                  } ]
                 }
-              } ],
-              "meta" : {
-                "globalKey" : "970a835f"
               }
             },
             "payerReceiver" : {
@@ -3123,12 +3071,12 @@
             },
             "settlementOrigin" : {
               "assetPayout" : {
-                "globalReference" : "2b0895ae"
+                "globalReference" : "8197590c"
               }
             }
           },
           "meta" : {
-            "globalKey" : "c9b798f"
+            "globalKey" : "81eb0b25"
           }
         }, {
           "transfer" : {
@@ -3190,12 +3138,12 @@
             },
             "settlementOrigin" : {
               "assetPayout" : {
-                "globalReference" : "2b0895ae"
+                "globalReference" : "8197590c"
               }
             }
           },
           "meta" : {
-            "globalKey" : "ef3eb5a"
+            "globalKey" : "15549de0"
           }
         }, {
           "transfer" : {
@@ -3205,20 +3153,16 @@
                 "financialUnit" : "Share"
               }
             },
-            "observable" : {
-              "productIdentifier" : [ {
-                "value" : {
-                  "identifier" : {
-                    "value" : "ST001"
-                  },
-                  "source" : "SEDOL",
-                  "meta" : {
-                    "globalKey" : "970a835f"
-                  }
+            "asset" : {
+              "Instrument" : {
+                "Security" : {
+                  "identifier" : [ {
+                    "identifier" : {
+                      "value" : "ST001"
+                    },
+                    "identifierType" : "SEDOL"
+                  } ]
                 }
-              } ],
-              "meta" : {
-                "globalKey" : "970a835f"
               }
             },
             "payerReceiver" : {
@@ -3271,24 +3215,24 @@
             },
             "settlementOrigin" : {
               "assetPayout" : {
-                "globalReference" : "2b0895ae"
+                "globalReference" : "8197590c"
               }
             }
           },
           "meta" : {
-            "globalKey" : "c9cabfa5"
+            "globalKey" : "b14faa4f"
           }
         } ],
         "meta" : {
-          "globalKey" : "a7c282a2"
+          "globalKey" : "bed83e88"
         }
       } ],
       "meta" : {
-        "globalKey" : "a5d9a0b8"
+        "globalKey" : "7c78e8b4"
       }
     },
     "previousWorkflowStep" : {
-      "globalReference" : "906c12f3"
+      "globalReference" : "19cded0f"
     },
     "messageInformation" : {
       "messageId" : {
@@ -3310,7 +3254,7 @@
       }
     } ],
     "meta" : {
-      "globalKey" : "8b84ae50"
+      "globalKey" : "8341d0d4"
     }
   } ]
 }
